@@ -165,7 +165,9 @@ The framework then allows mapping of pins from `<PIN_COMPATIBLE>` to converter `
 
 !> Mapped pins should adhere strictly to the defined interface, any extras present on the hardware should be ignored.
 
-### `promicro`
+<!-- tabs:start -->
+
+### ** `promicro` **
 
 ```svgbob
           pins
@@ -187,7 +189,7 @@ B5 -+-O           O-+- B6
     '---+-+-+-+-+---'
 ```
 
-### `elite_c`
+### ** `elite_c` **
 
 ```svgbob
           pins
@@ -213,3 +215,5 @@ B5 -+-O O O O O O O-+- B6
 ```
 
 **Notes**: Includes bottom row pins, no LEDs
+
+<!-- tabs:end -->
