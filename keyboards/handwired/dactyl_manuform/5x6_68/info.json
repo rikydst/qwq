@@ -3,8 +3,7 @@
     "manufacturer": "kpagratis",
     "url": "",
     "maintainer": "kpagratis",
-    "bootloader": "caterina",
-    "processor": "atmega32u4",
+    "development_board": "promicro",
     "usb": {
         "vid": "0xFEED",
         "pid": "0x0016",

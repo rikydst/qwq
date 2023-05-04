@@ -2,7 +2,6 @@
     "manufacturer": "Louis Dalibard",
     "keyboard_name": "ai",
     "maintainer": "make42",
-    "bootloader": "caterina",
     "diode_direction": "COL2ROW",
     "features": {
         "bootmagic": true,
@@ -16,7 +15,7 @@
         "cols": ["F5", "F6", "F7", "B1"],
         "rows": ["D0", "D4", "C6", "D7", "D1"]
     },
-    "processor": "atmega32u4",
+    "development_board": "promicro",
     "url": "",
     "usb": {
         "device_version": "1.0.0",

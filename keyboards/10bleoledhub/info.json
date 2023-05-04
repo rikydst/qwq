@@ -21,8 +21,7 @@
             {"pin_a": "C7", "pin_b": "F7"}
         ]
     },
-    "processor": "atmega32u4",
-    "bootloader": "caterina",
+    "development_board": "promicro",
     "layouts": {
         "LAYOUT": {
             "layout": [

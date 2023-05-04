@@ -5,6 +5,5 @@
     },
     "diode_direction": "ROW2COL",
     "keyboard_name": "sculpt mobile astar",
-    "processor": "atmega32u4",
-    "bootloader": "caterina"
+    "development_board": "promicro",
 }

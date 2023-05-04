@@ -14,8 +14,7 @@
       {"pin_a": "E6", "pin_b": "B4", "resolution": 2}
     ]
   },
-  "processor": "atmega32u4",
-  "bootloader": "caterina",
+  "development_board": "promicro",
   "matrix_pins": {
     "direct": [
       ["F4", "F5", "F6"],

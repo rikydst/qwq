@@ -2,7 +2,6 @@
     "manufacturer": "Joe Scotto",
     "keyboard_name": "Scotto40",
     "maintainer": "joe-scotto",
-    "bootloader": "caterina",
     "diode_direction": "COL2ROW",
     "features": {
         "bootmagic": true,
@@ -16,7 +15,7 @@
         "cols": ["D1", "D0", "D4", "C6", "D7", "E6", "B4", "B5", "F4", "F5"],
         "rows": ["B1", "B3", "B2", "B6"]
     },
-    "processor": "atmega32u4",
+    "development_board": "promicro",
     "url": "",
     "usb": {
         "device_version": "1.0.0",

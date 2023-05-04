@@ -13,8 +13,7 @@
         "compose": "D7",
         "on_state": 0
     },
-    "processor": "atmega32u4",
-    "bootloader": "caterina",
+    "development_board": "promicro",
     "layouts": {
         "LAYOUT": {
             "layout": [

@@ -12,8 +12,7 @@
     "pin": "F6",
     "levels": 5
   },
-  "processor": "atmega32u4",
-  "bootloader": "caterina",
+  "development_board": "promicro",
   "matrix_pins": {
     "direct": [
       ["D1", "D0", "C6"],

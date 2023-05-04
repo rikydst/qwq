@@ -3,8 +3,7 @@
     "manufacturer": "3araht",
     "url": "https://github.com/3araht/chromatonemini",
     "maintainer": "3araht",
-    "bootloader": "caterina",
-    "processor": "atmega32u4",
+    "development_board": "promicro",
     "features": {
         "midi": true,
         "extrakey": true,
