@@ -21,8 +21,7 @@
     "ws2812": {
         "pin": "B7"
     },
-    "processor": "atmega32u4",
-    "bootloader": "caterina",
+    "development_board": "promicro",
     "layouts": {
         "LAYOUT_pad": {
             "layout": [

@@ -18,8 +18,7 @@
       "num_lock": "D5",
       "on_state": 0
     },
-    "processor": "atmega32u4",
-    "bootloader": "caterina",
+    "development_board": "promicro",
     "matrix_pins": {
       "direct": [
         ["D4", "C6", "D7"],

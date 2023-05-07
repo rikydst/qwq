@@ -11,8 +11,7 @@
     "ws2812": {
         "pin": "D0"
     },
-    "processor": "atmega32u4",
-    "bootloader": "caterina",
+    "development_board": "promicro",
     "debounce": 9,
     "community_layouts": ["alice", "alice_split_bs"],
     "layout_aliases": {

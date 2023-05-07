@@ -15,8 +15,7 @@
   "ws2812": {
     "pin": "F4"
   },
-  "processor": "atmega32u4",
-  "bootloader": "caterina",
+  "development_board": "promicro",
   "matrix_pins": {
     "direct": [
       ["D4", "F6", "B5", "E6"],

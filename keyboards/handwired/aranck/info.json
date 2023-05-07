@@ -13,8 +13,7 @@
     "rows": ["D3", "D2", "D1", "D0"]
   },
   "diode_direction": "COL2ROW",
-  "processor": "atmega32u4",
-  "bootloader": "caterina",
+  "development_board": "promicro",
   "community_layouts": ["planck_mit"],
   "layouts": {
     "LAYOUT_planck_mit": {

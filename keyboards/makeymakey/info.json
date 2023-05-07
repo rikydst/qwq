@@ -8,8 +8,7 @@
       "pid": "0x2B74",
       "device_version": "0.0.1"
     },
-    "processor": "atmega32u4",
-    "bootloader": "caterina",
+    "development_board": "promicro",
     "matrix_pins": {
       "direct": [
         ["D6", "B4", "C7", "B1", "E6", "D7"],
