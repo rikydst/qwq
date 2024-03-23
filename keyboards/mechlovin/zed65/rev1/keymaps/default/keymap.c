@@ -18,7 +18,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #include QMK_KEYBOARD_H
 
 enum my_keycodes {
-  WS2812_LED_ON = QK_KB_0,
+  RGB_LED_ON = QK_USER_0,
   LOGO_LED_OFF,
   UG_LED_OFF
 };
