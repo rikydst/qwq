@@ -175,7 +175,7 @@ bool process_record_kb(uint16_t keycode, keyrecord_t* record) {
     }
 
     if (keycode == MOMENTARY_DRAG_SCROLL) {
-        is_drag_scroll = record->event.pressed;
+        is_drag_scroll ^= 1
     }
     if (keycode == TOGGLE_DRAG_SCROLL && record->event.pressed) {
         is_drag_scroll ^= 1;
