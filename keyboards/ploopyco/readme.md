@@ -47,6 +47,6 @@ The `TOGGLE_DRAG_SCROLL` keycode is a toggle for enabling drag scrolling. Tap th
 
 ### Drag Scroll Configuration
 
-* `#define PLOOPY_DRAGSCROLL_DIVISOR_H 8.0` - Sets the horizontal movement divisor to use when drag scroll is enabled.
-* `#define PLOOPY_DRAGSCROLL_DIVISOR_V 8.0` - Sets the vertical movement divisor to use when drag scroll is enabled.
+* `#define PLOOPY_DRAGSCROLL_DIVISOR_H 8` - Sets the horizontal movement divisor to use when drag scroll is enabled. A higher value makes drag scroll less sensitive to horizontal movement.
+* `#define PLOOPY_DRAGSCROLL_DIVISOR_V 8` - Sets the vertical movement divisor to use when drag scroll is enabled. A higher value makes drag scroll less sensitive to vertical movement.
 * `#define PLOOPY_DRAGSCROLL_INVERT_V` - This reverses the vertical direction that the scroll is performed.
