@@ -7,7 +7,6 @@
     "bootloader": "rp2040",
     "board": "GENERIC_RP_RP2040",
     "features": {
-        "console": true,
         "extrakey": true,
         "mousekey": true,
         "nkro": true,
@@ -51,7 +50,6 @@
             "rainbow_moving_chevron": true,
             "rainbow_pinwheels": true,
             "raindrops": true,
-            "solid_color": true,
             "solid_reactive": true,
             "solid_reactive_cross": true,
             "solid_reactive_nexus": true,
@@ -61,24 +59,24 @@
             "splash": true,
             "typing_heatmap": true
         },
-        "center_point": [4, 4],
+        "center_point": [112, 112],
         "layout": [
-            {"matrix": [0, 0], "x": 1, "y": 1, "flags": 4},
-            {"matrix": [0, 1], "x": 3, "y": 1, "flags": 4},
-            {"matrix": [0, 2], "x": 5, "y": 1, "flags": 4},
-            {"matrix": [0, 3], "x": 7, "y": 1, "flags": 4},
-            {"matrix": [1, 0], "x": 1, "y": 3, "flags": 4},
-            {"matrix": [1, 1], "x": 3, "y": 3, "flags": 4},
-            {"matrix": [1, 2], "x": 5, "y": 3, "flags": 4},
-            {"matrix": [1, 3], "x": 7, "y": 3, "flags": 4},
-            {"matrix": [2, 0], "x": 1, "y": 5, "flags": 4},
-            {"matrix": [2, 1], "x": 3, "y": 5, "flags": 4},
-            {"matrix": [2, 2], "x": 5, "y": 5, "flags": 4},
-            {"matrix": [2, 3], "x": 7, "y": 5, "flags": 4},
-            {"matrix": [3, 0], "x": 1, "y": 7, "flags": 4},
-            {"matrix": [3, 1], "x": 3, "y": 7, "flags": 4},
-            {"matrix": [3, 2], "x": 5, "y": 7, "flags": 4},
-            {"matrix": [3, 3], "x": 7, "y": 7, "flags": 4}
+            {"matrix": [0, 0], "x": 0, "y": 0, "flags": 4},
+            {"matrix": [0, 1], "x": 75, "y": 0, "flags": 4},
+            {"matrix": [0, 2], "x": 150, "y": 0, "flags": 4},
+            {"matrix": [0, 3], "x": 224, "y": 0, "flags": 4},
+            {"matrix": [1, 0], "x": 0, "y": 75, "flags": 4},
+            {"matrix": [1, 1], "x": 75, "y": 75, "flags": 4},
+            {"matrix": [1, 2], "x": 150, "y": 75, "flags": 4},
+            {"matrix": [1, 3], "x": 224, "y": 75, "flags": 4},
+            {"matrix": [2, 0], "x": 0, "y": 150, "flags": 4},
+            {"matrix": [2, 1], "x": 75, "y": 150, "flags": 4},
+            {"matrix": [2, 2], "x": 150, "y": 150, "flags": 4},
+            {"matrix": [2, 3], "x": 224, "y": 150, "flags": 4},
+            {"matrix": [3, 0], "x": 0, "y": 224, "flags": 4},
+            {"matrix": [3, 1], "x": 75, "y": 224, "flags": 4},
+            {"matrix": [3, 2], "x": 150, "y": 224, "flags": 4},
+            {"matrix": [3, 3], "x": 224, "y": 224, "flags": 4}
         ]
     },
     "matrix_pins": {
@@ -87,7 +85,7 @@
             ["GP19", "GP15", "GP11", "GP7"],
             ["GP20", "GP16", "GP12", "GP8"],
             ["GP21", "GP17", "GP13", "GP9"],
-            ["GP23", "NO_PIN", "NO_PIN", "NO_PIN"]
+            ["GP23", null, null, null]
         ]
     },
     "layouts": {
