@@ -1,4 +1,4 @@
-// Copyright 2017 Matthew Adereth
+// Copyright 2023 Duncan Sutherland
 // SPDX-License-Identifier: GPL-2.0-or-later
 
 #include QMK_KEYBOARD_H
@@ -51,5 +51,5 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                                                               _______, _______,       _______, _______,
                                                      _______, _______, _______,       _______, _______, KC_WBAK,
                                                                        _______,       _______
-    ),
+    )
 };
